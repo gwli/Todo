@@ -1,6 +1,8 @@
 <script src="https://unpkg.com/vue"></script>
 <script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.core.min.js"></script>
 
+<body>
+Translate
 <div id="google_translate_element"></div><script type="text/javascript">
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
@@ -17,7 +19,7 @@ function googleTranslateElementInit() {
       v-on:click="removeTodo(todo)">{{ todo.value }}</li>
   </ul>
 </div>
-
+</body>
 <script>
   new Vue({
   el: '#app',
